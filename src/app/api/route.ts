@@ -8,4 +8,6 @@ export async function GET() {
     data.push(newChallenge);
   }
   return NextResponse.json({ data: data });
+
+  //return NextResponse.json({ message: "Not found" }, { status: 404 });
 }
